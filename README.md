@@ -1,0 +1,2 @@
+# LSE-StreamGuard-FPGA-Based-LSEG-Ticker-Stream-Parser-Crash-Interlock
+A hardware packet inspector targeting simulated LSEG ITCH binary market data feeds implemented in VHDL on the Basys 3 board. The system ingests raw LSE message packets, parses headers and financial payloads via a byte-level FSM, and executes hardware-level delta checks to trip a safety interlock flag during sudden market anomalies.
